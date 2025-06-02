@@ -416,8 +416,8 @@ list-style: none;
 
 
 
-.soc-link:hover,
-.soc-link:focus {
+.soc-link-class:hover,
+.soc-link-class:focus {
   background-color: #404bbf;
 }
 
@@ -490,7 +490,7 @@ border-top: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--light-text-color, #f4f4fd);
+  color: #f4f4fd);
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
@@ -508,7 +508,7 @@ border-top: none;
 
 /* При наведенні — тінь + показати оверлей */
 .portfolio-item:hover .portfolio-overlay {
-  bottom: 0;
+ transform: translateY(0%);
 }
 
 
@@ -544,6 +544,7 @@ display: flex;
 align-items: baseline;
 }
 .footer-logo-wrapper {
+margin-right: 120px;
 max-width: 264px;
 }
 
