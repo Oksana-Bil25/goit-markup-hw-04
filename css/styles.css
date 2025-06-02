@@ -508,7 +508,7 @@ border-top: none;
 
 /* При наведенні — тінь + показати оверлей */
 .portfolio-item:hover .portfolio-overlay {
-  bottom: 0;
+   transform: translateY(0%);
 }
 
 
